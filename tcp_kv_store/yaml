@@ -1,0 +1,21 @@
+
+---
+
+## ⚙️ Build Instructions
+
+Make sure you’re on a **Linux/Unix system** with `g++` installed.
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/tcp_kv_store.git
+cd tcp_kv_store
+
+# Build project
+make
+
+
+# This will create two executables:
+
+# server → Starts the TCP/IP server
+# client → Starts a client that connects to the server
+```
